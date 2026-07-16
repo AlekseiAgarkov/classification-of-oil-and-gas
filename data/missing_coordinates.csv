@@ -1,0 +1,36 @@
+field_name,reservoir_unit,latitude,longitude,source,comment
+badr el din-2,bahariya,29.9247,27.9233,"https://www.gem.wiki/Bed-2_Oil_and_Gas_Field_(Egypt)
+https://www.google.com/maps?ll=29.924657,27.923297&z=8&t=m&hl=en&gl=US&mapclient=apiv3",
+bridger lake,dakota sandstone (lower member),40.9675,-110.3182,https://www.geonames.org/5771952/bridger-lake-oil-field.html,
+scott,sgiath-piper,58.2800,0.1200,https://en.wikipedia.org/wiki/Piper_oilfield,
+zakum,thamama zone ii,24.8429,53.6563,https://www.gem.wiki/Upper_Zakum_Oil_Field_(United_Arab_Emirates),
+gasikule,upper ganchaigou-lower youshas,38.1465,90.9065,"https://www.gem.wiki/Gasikule_Oil_Field_(Qinghai,_China)",
+uzen,units xiii-xviii,43.4175,52.8658,https://www.gem.wiki/Uzen_Oil_and_Gas_Field_(Kazakhstan),
+ula,ula,57.1114,2.8473,https://en.wikipedia.org/wiki/Ula_oil_field,
+yibal,khuff,22.1322,55.9842,https://www.gem.wiki/Yibal_Oil_and_Gas_Field_(Oman),
+palm valley,pacoota and stairway,-24.0667,132.8167,https://grokipedia.com/page/palm_valley_northern_territory,
+wubaiti,huanglong,31.3593,108.5218,"https://www.gem.wiki/Wubaiti_Gas_Field_(Chongqing,_China)",
+orocual,san juan,9.8532,-63.3682,https://www.gem.wiki/Orocual_Oil_Field_(Venezuela),
+glenburn,mission canyon (frobisher-alida),48.5076,-101.2584,"https://archives.datapages.com/data/mgs/mt/data/0034/0177/0177.html
+https://www.drillingedge.com/north-dakota/renville-county/wells/state-west-glenburn-55-907-1/33-075-00990","Glenburn Field (Mission Canyon) относится к Williston Basin и находится округе Renville, в Северной Дакоте"
+harmattan-elkton,turner valley (rundle c pool),51.7040,-114.5860,"https://www.gem.wiki/Harmattan-Elkton_Oil_and_Gas_Field_(Alberta,_Canada)",
+tia juana,la rosa-lagunillas (tia juana onshore area),9.8179,-71.0360,https://www.gem.wiki/Lagunillas_Oil_Field_(Venezuela),Нас интересует Lagunillas onshore.
+empire abo,abo,32.7841,-104.2267,"https://onepetro.org/SPEPBOGR/proceedings-abstract/77PBOGR/77PBOGR/SPE-6384-MS/139027
+https://www.shalexp.com/new-mexico/eddy-county/empire-abo-unit/131337",Есть 2 месторождения Abo (Нигерия) и Empire Abo (Нью Мексико). Нас интересует Empire Abo.
+north robertson,clearfork-glorieta,32.5607,-103.0766,https://gis.rrc.texas.gov/GISViewer/index.html?api=16538611,
+taber north,upper mannvile (a pool),49.7540,-112.0610,"https://www.gem.wiki/Taber_Oil_and_Gas_Field_(Alberta,_Canada)",
+rhourde el baguel,menkel /hassaouna,31.4990,6.7070,https://www.gem.wiki/Rhourde_El_Baguel_Oil_Field_(Algeria),
+caroline,swan hills (beaverhill lake a),54.9230,-115.4110,"https://www.gem.wiki/Swan_Hills_Oil_and_Gas_Field_(Alberta,_Canada)",
+west seminole,san andres,32.7611,-102.7901,https://www.shalexp.com/texas/gaines-county/west-seminole-sa/047209,
+alpine,alpine,70.3342,-151.0309,"https://www.gem.wiki/Colville_River_(Alpine)_Oil_and_Gas_Field_(Alaska,_United_States)",
+beaver lodge,mission canyon (madison),48.3438,-102.9124,https://www.drillingedge.com/north-dakota/williams-county/wells/beaver-lodge-madison-unit-s-29/33-105-00058,
+talco,paluxy,33.3585,-95.1159,"https://www.texas-drilling.com/franklin-county/leases/talco-paluxy-carrsand-unit-no1/005150
+https://wellwiki-prod.cloud.arc.gwu.edu/wiki/42-449-30054",
+qarun,lower bahariya,29.5163,30.8578,https://www.gem.wiki/Qarun_Oil_and_Gas_Field_(Egypt),
+andrew,lista (andrew sandstone),58.0410,1.4093,https://www.gem.wiki/Andrew_Oil_and_Gas_Field_(United_Kingdom),
+rourke gap,upper minnelusa (c sand),44.1977,-105.4164,https://www.shalexp.com/wyoming/campbell-county/rourke/297968,
+cashiriari,viivian,-11.8741,-72.6809,"https://www.gem.wiki/Cashiriari_Gas_Field_(Cusco,_Peru)",
+orenburg,unnamed,51.0290,55.0650,"https://www.gem.wiki/Orenburgskoye_Oil_and_Gas_Project_(Orenburg_region,_Russia)",
+barque,leman sandstone,53.6005,1.6003,https://www.gem.wiki/Barque_Oil_and_Gas_Field_(United_Kingdom),
+yakin,balikpapan (yakin),-0.9300,117.4500,"https://archives.datapages.com/data/ipa/data/036/036001/YA-1_ipa036YA-1.htm?q=%2BtextStrip%3Ayakin
+https://www.gem.wiki/Mahakam_Block_Oil_and_Gas_Project_(Indonesia)",Yakin Complex находится во райне Mahakam VII
