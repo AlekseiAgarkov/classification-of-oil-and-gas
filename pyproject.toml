@@ -24,5 +24,8 @@ dependencies = [
     "kaggle>=2.1.2",
     "catboost>=1.2.10",
     "skops>=0.14.0",
+    "geopandas>=1.1.4",
+    "geopy>=2.5.0",
+    "folium>=0.20.0",
     "optuna>=4.8.0"
 ]
