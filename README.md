@@ -34,3 +34,9 @@ source .venv/bin/activate
 ```shell
 uv pip install -e .
 ```
+
+# Citation / Цитирование
+* Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.
+
+![NEV-Logo-color.png](doc%2Fimg%2FNEV-Logo-color.png)
+
