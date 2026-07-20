@@ -1,4 +1,3 @@
-basin_name,location
 amu darya,onshore
 anadarko,onshore
 appalachian,onshore
@@ -13,6 +12,7 @@ carnarvon,onshore-offshore
 caspian north,onshore-offshore
 caspian south,onshore-offshore
 cook inlet,onshore-offshore
+eromanga,onshore
 espirito santo,onshore-offshore
 fort worth,onshore
 gippsland,onshore-offshore
@@ -29,7 +29,7 @@ michigan,onshore
 niger delta,onshore-offshore
 nile delta,onshore-offshore
 north sea central,offshore
-north sea northern,onshore-offshore
+north sea northern,offshore
 north sea southern,onshore-offshore
 north slope,onshore-offshore
 ordos,onshore
@@ -42,6 +42,7 @@ pearl river mouth,onshore-offshore
 pelagian,onshore-offshore
 phitsanulok,onshore
 powder river,onshore
+qaidam,onshore
 qiongdongnan,offshore
 reconcavo,onshore-offshore
 rub al khali,onshore-offshore
@@ -52,7 +53,7 @@ sichuan,onshore
 sirt,onshore-offshore
 songliao,onshore
 sumatra central,onshore-offshore
-sumatra south,onshore-offshore
+sumatra north,onshore-offshore
 sunda,onshore-offshore
 tarakan,onshore-offshore
 timan-pechora,onshore-offshore
