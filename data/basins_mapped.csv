@@ -1,65 +1,65 @@
 basin_name,location
-volga-ural,onshore
-espirito santo,onshore-offshore
-north sea northern,onshore-offshore
 amu darya,onshore
-williston,onshore
 anadarko,onshore
-maracaibo,onshore
-north sea central,offshore
-llanos,onshore
-malay,offshore
-caspian north,onshore-offshore
-paris,onshore
-reconcavo,onshore-offshore
-sumatra central,onshore-offshore
+appalachian,onshore
+aquitaine,onshore-offshore
+arkoma,onshore
 beaufort-mackenzie,onshore-offshore
 big horn,onshore
-sirt,onshore-offshore
-paradox,onshore
-phitsanulok,onshore
-campos,onshore-offshore
-ordos,onshore
-wessex,onshore-offshore
-appalachian,onshore
-cambay,onshore-offshore
-cook inlet,onshore-offshore
-jeanne d arc,offshore
 bonaparte,onshore-offshore
-kutai,onshore-offshore
-caspian south,onshore-offshore
-gippsland,onshore-offshore
-sumatra south,onshore-offshore
-jianghan,onshore
-papuan ftb,onshore-offshore
-north sea southern,onshore-offshore
-western overthrust,onshore
-fort worth,onshore
-otway,onshore-offshore
-pelagian,onshore-offshore
-qiongdongnan,offshore
-timan-pechora,onshore-offshore
-sunda,onshore-offshore
-niger delta,onshore-offshore
-aquitaine,onshore-offshore
-nile delta,onshore-offshore
-rub al khali,onshore-offshore
-michigan,onshore
-sergipe-alagoas,onshore-offshore
-powder river,onshore
-los angeles,onshore-offshore
-north slope,onshore-offshore
-arkoma,onshore
+cambay,onshore-offshore
+campos,onshore-offshore
 carnarvon,onshore-offshore
-san joaquin,onshore
+caspian north,onshore-offshore
+caspian south,onshore-offshore
+cook inlet,onshore-offshore
+espirito santo,onshore-offshore
+fort worth,onshore
+gippsland,onshore-offshore
 gulf of suez,onshore-offshore
-tarakan,onshore-offshore
-uinta,onshore
-wind river,onshore
-songliao,onshore
-salawati,onshore-offshore
-pearl river mouth,onshore-offshore
-vienna,onshore
-oriente,onshore
+jeanne d arc,offshore
+jianghan,onshore
 kaiparowits,onshore
+kutai,onshore-offshore
+llanos,onshore
+los angeles,onshore-offshore
+malay,offshore
+maracaibo,onshore
+michigan,onshore
+niger delta,onshore-offshore
+nile delta,onshore-offshore
+north sea central,offshore
+north sea northern,onshore-offshore
+north sea southern,onshore-offshore
+north slope,onshore-offshore
+ordos,onshore
+oriente,onshore
+otway,onshore-offshore
+papuan ftb,onshore-offshore
+paradox,onshore
+paris,onshore
+pearl river mouth,onshore-offshore
+pelagian,onshore-offshore
+phitsanulok,onshore
+powder river,onshore
+qiongdongnan,offshore
+reconcavo,onshore-offshore
+rub al khali,onshore-offshore
+salawati,onshore-offshore
+san joaquin,onshore
+sergipe-alagoas,onshore-offshore
 sichuan,onshore
+sirt,onshore-offshore
+songliao,onshore
+sumatra central,onshore-offshore
+sumatra south,onshore-offshore
+sunda,onshore-offshore
+tarakan,onshore-offshore
+timan-pechora,onshore-offshore
+uinta,onshore
+vienna,onshore
+volga-ural,onshore
+wessex,onshore-offshore
+western overthrust,onshore
+williston,onshore
+wind river,onshore
