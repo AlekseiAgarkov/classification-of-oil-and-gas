@@ -1,15 +1,18 @@
 basin_name,location
 volga-ural,onshore
 espirito santo,onshore-offshore
+north sea northern,onshore-offshore
 amu darya,onshore
 williston,onshore
 anadarko,onshore
 maracaibo,onshore
+north sea central,offshore
 llanos,onshore
 malay,offshore
 caspian north,onshore-offshore
 paris,onshore
 reconcavo,onshore-offshore
+sumatra central,onshore-offshore
 beaufort-mackenzie,onshore-offshore
 big horn,onshore
 sirt,onshore-offshore
@@ -26,8 +29,10 @@ bonaparte,onshore-offshore
 kutai,onshore-offshore
 caspian south,onshore-offshore
 gippsland,onshore-offshore
+sumatra south,onshore-offshore
 jianghan,onshore
 papuan ftb,onshore-offshore
+north sea southern,onshore-offshore
 western overthrust,onshore
 fort worth,onshore
 otway,onshore-offshore
