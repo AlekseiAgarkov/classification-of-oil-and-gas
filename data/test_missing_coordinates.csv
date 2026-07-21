@@ -1,0 +1,22 @@
+field_name,reservoir_unit,latitude,longitude,source,comment
+arun,arun limestone (peutu),5.05444,97.25944,"https://www.mindat.org/paleo_collection.php?col=86769
+https://en.wikipedia.org/wiki/Arun_gas_field",
+balol,kalol,23.553,72.259,"https://www.gem.wiki/N.Balol_Oil_and_Gas_Block_(Gujarat,_India)",
+belayim marine,rudeis-kareem,,,"https://www.researchgate.net/figure/Correlation-of-the-Rudeis-Kareem-and-Belayim-formations-eastern-coastal-region-of-the_fig3_286097132
+https://www.gem.wiki/Belayim_Marine_%26_Belayim_Land_Oil_Project_(Egypt)",Нефтяной район. Формации Rudeis и Kareem подлежат формации Belayim
+chalybeat springs,smackover,33.0456,-93.067040,https://www.drillingedge.com/arkansas/columbia-county/wells/chalybeat-springs-smackover-unit/03-027-10193,
+djeitun,red series,39.58,53.13,"https://sst-ts.com/wellhead-platform-zhdanov-a/
+https://www.woodmac.com/reports/upstream-oil-and-gas-cheleken-contract-area-551366/","Указано, что Джейтун входит в контрактный район Челекен. Возьмём координаты Челекен. Оператор Dragon Oil."
+gorgon,mungaroo,-20.3832,114.8629,"https://www.gem.wiki/Gorgon_Oil_and_Gas_Field_(Western_Australia,_Australia)",
+july,nubia c,28.2282,33.2409,https://www.gem.wiki/July_Oil_and_Gas_Field_(Egypt),
+kg,gabus-keras-barat-pasir-arang,-7.18333,111.18333,"https://www.ipa.or.id/en/publications/hydrocarbon-play-of-west-natuna-basin-and-challenge-for-new-exploration-related-to-structural-setting-and-stratigraphic-succession
+https://archives.datapages.com/data/ipa/data/035/035001/GA-1_ipa035GA-1.htm
+https://www.researchgate.net/publication/280114135_Unravelling_the_Tectonically_Controlled_Stratigraphy_of_the_West_Natuna_Basin_by_Means_of_Palaeo-Derived_Mid_Tertiary_Climate_Changes","Сложно найти. В документации есть формация Gabus, возьмём её координаты."
+khalda,lower bahariya,30.654,26.958,https://www.gem.wiki/Khalda_Oil_and_Gas_Field_(Egypt),
+liuhua 11-1,zhujiang,20.8219,115.7317,"https://www.gem.wiki/Liuhua_11-1_Oil_Field_(Guangdong,_China)",
+maydan mahzam,arab d,25.753,52.4466,https://www.gem.wiki/Maydan_Mahzam_Oil_and_Gas_Field_(Qatar),
+october,nubia (main field area),28.816,33.06,https://www.gem.wiki/October_Oil_and_Gas_Field_(Egypt),
+prirazlom,unnamed (units i-ii),69.473,56.634,"https://www.gem.wiki/Prirazlomnoye_(Nenets_Autonomous_Okrug)_Oil_Field_(Nenets_Autonomous_Okrug,_Russia)",
+rama,baturaja,-5.430694,106.288944,https://archives.datapages.com/data/ipa/data/035/035001/RA-1_ipa035RA-1.htm,
+vermejo-moore hooper,fusselman-wink,31.715578,-103.573178,https://www.shalexp.com/texas/loving-county/moore-hooper/344735,
+weiyuan,dengying,29.5703,104.7757,"https://www.gem.wiki/Weiyuan_Shale_Gas_Field_(Sichuan,_China)",
