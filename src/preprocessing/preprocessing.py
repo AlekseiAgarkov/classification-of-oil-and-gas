@@ -1,5 +1,6 @@
 import pandas as pd
-from sklearn.preprocessing import FunctionTransformer, MultiLabelBinarizer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import FunctionTransformer, MultiLabelBinarizer, OneHotEncoder
 
 
 def cat_diff(a, b, col):
@@ -53,3 +54,31 @@ def construct_basin_location_mapper_with_external(df: pd.DataFrame, external_map
         basin_location_mapper[name] = location
 
     return basin_location_mapper
+
+
+def split_binarize_encode(df, col):
+    binarizer_ = Pipeline([
+        ('extract', col_splitter(col=col)),
+        ('binarize', binarizer())
+    ])
+
+    binarized = binarizer_.fit_transform(df)
+
+    features = pd.DataFrame(binarized,
+                            columns=[f"{col}_{c.replace(' ', '-')}" for c in
+                                     binarizer_.named_steps['binarize'].func.__self__.classes_.tolist()],
+                            index=df.index)
+    return features, binarizer_
+
+
+def onehot_encode(df, col, handle_unknown='infrequent_if_exist'):
+    binarizer = Pipeline([('binarize', OneHotEncoder(handle_unknown=handle_unknown))])
+
+    binarized = binarizer.fit_transform(df[[col]]).toarray()
+
+    features = pd.DataFrame(
+        binarized,
+        columns=[f"{col}_{c.replace(' ', '-').replace('/', '-')}" for c in
+                 binarizer.named_steps['binarize'].categories_[0].tolist()],
+        index=df.index)
+    return features, binarizer
