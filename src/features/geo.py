@@ -30,5 +30,5 @@ def extract_polygon(multipolygon, point):
     return None
 
 
-def within_shape(lon, lat, gdf):
+def within_shape(lon: float, lat: float, gdf: GeoSeries | GeoDataFrame):
     return gdf.geometry.intersects(Point(lon, lat)).any()

@@ -1,8 +1,10 @@
+from typing import Tuple
+
 import pandas as pd
 from matplotlib import pyplot as plt
 
 
-def plot_ct(df, col, title, figsize=(12, 3)):
+def plot_ct(df: pd.DataFrame, col: str, title: str, figsize: Tuple[int, int]=(12, 3)):
     ct = (pd.crosstab(df[col], df['onshore_offshore'])
           [['onshore', 'offshore', 'onshore-offshore']]
           .sort_values("onshore", ascending=False))
@@ -10,7 +12,7 @@ def plot_ct(df, col, title, figsize=(12, 3)):
     plt.show()
 
 
-def plot_iqr_boxplot_comparison(train_df, test_df, title):
+def plot_iqr_boxplot_comparison(train_df: pd.DataFrame, test_df: pd.DataFrame, title: str):
     common_cols = train_df.columns.intersection(test_df.columns)
 
     fig, axes = plt.subplots(1, len(common_cols), figsize=(len(common_cols) * 3, 4))

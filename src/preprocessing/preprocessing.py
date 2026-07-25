@@ -1,37 +1,41 @@
+from typing import Dict, List
+
+import numpy as np
 import pandas as pd
+from geopandas import GeoDataFrame, GeoSeries
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MultiLabelBinarizer, OneHotEncoder
 
 from src.features.geo import water_fraction, within_shape
 
 
-def cat_diff(a, b, col):
+def cat_diff(a: pd.DataFrame, b: pd.DataFrame, col: str):
     return set(b[col].dropna().unique()) - set(a[col].dropna().unique())
 
 
-def split_strings(X, col, sep='/'):
+def split_strings(X: pd.DataFrame, col: str, sep: str = '/'):
     return X[col].fillna('').astype(str).str.split(sep)
 
 
-def str_col_vals_to_lower(df):
+def str_col_vals_to_lower(df: pd.DataFrame):
     str_cols = df.select_dtypes(include='str').columns
     df[str_cols] = df[str_cols].apply(lambda x: x.str.lower())
     return df
 
 
-def col_names_to_lower(df):
+def col_names_to_lower(df: pd.DataFrame):
     df.columns = [c.lower().replace(" ", "_").replace("(", "").replace(")", "").replace("/", "_")
                   for c in df.columns]
 
     return df
 
 
-def fill_with_unknown(df, col):
+def fill_with_unknown(df: pd.DataFrame, col: str):
     df[col] = df[col].fillna('unknown')
     return df
 
 
-def fill_missing_coords(df, missing_coords_df):
+def fill_missing_coords(df: pd.DataFrame, missing_coords_df: pd.DataFrame):
     cols = ["field_name", "reservoir_unit", "latitude", "longitude"]
     key_cols = ["field_name", "reservoir_unit"]
     df_filled = df.merge(missing_coords_df[cols], on=key_cols, how='left', suffixes=('', '_fill'))
@@ -41,7 +45,7 @@ def fill_missing_coords(df, missing_coords_df):
     return df_filled
 
 
-def fill_missing_basins(df, basin_locations_df):
+def fill_missing_basins(df: pd.DataFrame, basin_locations_df: pd.DataFrame):
     cols = ["basin_name", "field_name", "reservoir_unit"]
     key_cols = ["field_name", "reservoir_unit"]
     df = df.merge(basin_locations_df[cols], on=key_cols, how='left', suffixes=('', '_fill'))
@@ -50,7 +54,7 @@ def fill_missing_basins(df, basin_locations_df):
     return df
 
 
-def calc_water_features(gdf, water_feature_datasets):
+def calc_water_features(gdf: GeoDataFrame, water_feature_datasets: Dict[str, GeoDataFrame | GeoSeries]):
     gdf['water_pct'] = gdf.apply(lambda row: water_fraction(point_lat=row.latitude,
                                                             point_lon=row.longitude,
                                                             water_shapes=water_feature_datasets["ocean_50m"],
@@ -76,7 +80,7 @@ def calc_water_features(gdf, water_feature_datasets):
     return gdf
 
 
-def calc_ref_features(gdf):
+def calc_ref_features(gdf: GeoDataFrame):
     names_concat = gdf['field_name'] + gdf['reservoir_unit'] + gdf['basin_name']
     gdf['ref_onshore'] = names_concat.str.contains('onshore')
     gdf['ref_offshore'] = names_concat.str.contains('offshore')
@@ -84,7 +88,7 @@ def calc_ref_features(gdf):
     return gdf
 
 
-def construct_basin_location_mapper(df):
+def construct_basin_location_mapper(df: pd.DataFrame):
     basin_location_info = df[['basin_name', 'onshore', 'offshore', 'onshore-offshore-calc']].to_dict("records")
     basin_location_mapper = {}
 
@@ -121,7 +125,7 @@ def construct_basin_location_mapper_with_external(df: pd.DataFrame, external_map
     return basin_location_mapper
 
 
-def infer_basin_locations(gdf):
+def infer_basin_locations(gdf: GeoDataFrame):
     basin_location = pd.crosstab(gdf['basin_name'], gdf['onshore_offshore']).drop('unknown',
                                                                                   errors='ignore').reset_index()
 
@@ -145,39 +149,39 @@ def infer_basin_locations(gdf):
     return basin_location, inferred_location_map
 
 
-def map_basin_location(gdf, inferred_basin_location_map, basin_location_map_combined):
+def map_basin_location(gdf: GeoDataFrame, inferred_basin_location_map: dict, basin_location_map_combined: dict):
     gdf['basin_location_inferred'] = gdf['basin_name'].map(inferred_basin_location_map).fillna("unknown")
     gdf['basin_location_external'] = gdf['basin_name'].map(basin_location_map_combined).fillna('unknown')
     return gdf
 
 
-def rename_encoded_columns(tranformed_data, encoded_columns, col, index):
+def rename_encoded_columns(tranformed_data: np.ndarray, encoded_columns: List[str], col: str, index: pd.Index):
     renamed_columns = [f"{col}_{c}" for c in encoded_columns]
     return pd.DataFrame(tranformed_data, columns=renamed_columns, index=index)
 
 
-def split_binarize_encode(df, col):
+def split_binarize_encode(df: pd.DataFrame, col: str):
     df_with_split_col = split_strings(df, col)
-    transformer = MultiLabelBinarizer()
+    transformer: MultiLabelBinarizer = MultiLabelBinarizer()
     binarized = transformer.fit_transform(df_with_split_col)
     encoded_columns = transformer.classes_
     features = rename_encoded_columns(binarized, encoded_columns, col, df.index)
     return features, transformer
 
 
-def split_binarize_encode_test_data(transformer, df, col):
+def split_binarize_encode_test_data(transformer: MultiLabelBinarizer, df: pd.DataFrame, col: str):
     df_with_split_col = split_strings(df, col)
     transformed = transformer.transform(df_with_split_col)
     return rename_encoded_columns(transformed, transformer.classes_, col, df.index)
 
 
-def onehot_transform_columns(transformer):
+def onehot_transform_columns(transformer: Pipeline):
     return [c.replace(' ', '-').replace('/', '-') for c in
             transformer.named_steps['binarize'].categories_[0].tolist()]
 
 
-def onehot_encode(df, col, handle_unknown='infrequent_if_exist'):
-    transformer = Pipeline([('binarize', OneHotEncoder(handle_unknown=handle_unknown))])
+def onehot_encode(df: pd.DataFrame, col: str, handle_unknown: str = 'infrequent_if_exist'):
+    transformer: Pipeline = Pipeline([('binarize', OneHotEncoder(handle_unknown=handle_unknown))])
 
     transformed = transformer.fit_transform(df[[col]]).toarray()
     encoded_columns = onehot_transform_columns(transformer)
@@ -186,7 +190,7 @@ def onehot_encode(df, col, handle_unknown='infrequent_if_exist'):
     return features, transformer
 
 
-def onehot_encode_test_data(transformer, df, col):
+def onehot_encode_test_data(transformer: Pipeline, df: pd.DataFrame, col: str):
     transformed = transformer.transform(df[[col]]).toarray()
     encoded_columns = onehot_transform_columns(transformer)
     return rename_encoded_columns(transformed, encoded_columns, col, df.index)
