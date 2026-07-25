@@ -22,4 +22,5 @@ dependencies = [
     "kaggle>=2.1.2",
     "catboost>=1.2.10",
     "geopandas>=1.1.4",
+    "fuzzywuzzy==0.18.0",
 ]
