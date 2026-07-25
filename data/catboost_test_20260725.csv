@@ -1,0 +1,310 @@
+country,region,basin_name,operator_company,hydrocarbon_type,reservoir_status,reservoir_period,lithology,basin_location_inferred,basin_location_external,tectonic_regime_basement-i,tectonic_regime_compression,tectonic_regime_diapir,tectonic_regime_erosion,tectonic_regime_evaporite,tectonic_regime_extension,tectonic_regime_gravity,tectonic_regime_inversion,tectonic_regime_linked,tectonic_regime_reactivation,tectonic_regime_shale,tectonic_regime_strike-slip,tectonic_regime_synsedimentation,tectonic_regime_transpression,tectonic_regime_transtension,tectonic_regime_uplift,structural_setting_backarc,structural_setting_delta,structural_setting_forearc,structural_setting_foreland,structural_setting_intracratonic,structural_setting_inversion,structural_setting_passive-margin,structural_setting_rift,structural_setting_salt,structural_setting_sub-salt,structural_setting_sub-thrust,structural_setting_thrust,structural_setting_wrench,depth,thickness_gross_average_ft,thickness_net_pay_average_ft,porosity,permeability,is_in_water,is_on_island,is_in_gulf,is_in_strait,is_in_delta,is_in_bay,ref_onshore,ref_offshore,ref_lake
+egypt,africa,abu gharadig,gupco,gas-condensate,mature production,cretaceous,sandstone,onshore,onshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,10282.0,745.0,144.0,10.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+egypt,africa,nile delta,ieoc,gas,declining production,neogene,sandstone,onshore-offshore,onshore-offshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,10499.0,509.0,410.0,20.0,300.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+kazakhstan,former soviet union,caspian north,kazakhoil aktobe,oil,developing,carboniferous,limestone,onshore,onshore-offshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,6000.0,300.0,105.0,10.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uk,europe,north sea northern,total,oil,nearly depleted,jurassic,sandstone,offshore,offshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9790.0,886.0,344.0,17.0,500.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+india,far east,cambay,ongc,oil,mature production,paleogene,sandstone,onshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2950.0,670.0,0.0,21.0,250.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,exxonmobil,gas-condensate,declining production,neogene,limestone,unknown,unknown,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,9460.0,770.0,500.0,16.0,13.5,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+tunisia,africa,pelagian,serept,oil,mature production,paleogene,limestone,offshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,8800.0,295.0,246.0,17.2,42.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uk,europe,north sea central,shell,oil,mature production,permian,sandstone,offshore,offshore,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,7044.0,980.0,840.0,19.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+bahrain,middle east,the gulf,bahrain national oil co,gas,unknown,permian,dolomite,onshore-offshore,onshore-offshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8943.0,2100.0,445.0,11.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+egypt,africa,abu gharadig,bapetco,gas-condensate,declining production,cretaceous,sandstone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7087.0,476.0,95.0,21.5,55.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,junggar (zhungeer),petrochina,oil,rejuvenating,triassic,conglomerate,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,6970.0,525.0,100.0,12.2,71.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,ongc,oil,rejuvenating,paleogene,sandstone,unknown,unknown,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3136.0,148.0,13.0,28.0,5000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+australia,far east,gippsland,exxonmobil /bhp billiton,gas,declining production,paleogene,sandstone,offshore,onshore-offshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3184.0,377.0,295.0,25.0,1000.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,gulf of suez,petrobel,oil,declining production,neogene,sandstone,offshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7090.0,1300.0,500.0,18.0,400.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uk,europe,north sea northern,exxonmobil,oil,unknown,jurassic,sandstone,offshore,offshore,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9959.0,180.0,144.0,18.0,200.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,gulf of mexico northern onshore,placid oil,gas-condensate,mature production,cretaceous,limestone,onshore,onshore,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7790.0,150.0,72.5,15.0,133.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+usa,north america,gulf of mexico northern onshore,sanchez - o brien /coastal,gas,declining production,paleogene,sandstone,onshore,onshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,9875.0,3000.0,650.0,16.0,0.6,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+usa,north america,anadarko,numerous,gas,rejuvenating,carboniferous,shaly sandstone,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7325.0,350.0,34.0,12.0,0.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+qatar,middle east,rub al khali,qatar petroleum,oil,unknown,jurassic,limestone,onshore-offshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,8435.0,180.0,140.0,14.0,25.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,anadarko,numerous,oil,mature production,carboniferous,limestone,onshore,onshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,4030.0,265.0,14.0,15.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,numerous,oil,nearly depleted,cretaceous,sandstone,onshore,onshore,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,7600.0,158.0,15.0,9.5,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,ventura,pxp and others,oil,declining production,neogene,sandstone,unknown,unknown,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1835.0,2000.0,350.0,28.0,550.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,wind river,citation oil and gas,oil,mature production,carboniferous,sandstone,unknown,unknown,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,2300.0,300.0,120.0,21.0,650.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,wind river,williams,gas,declining production,cretaceous-paleogene,sandstone,unknown,unknown,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,4800.0,4600.0,550.0,17.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+france,europe,aquitaine,exxonmobil,oil,nearly depleted,cretaceous,sandstone,onshore-offshore,onshore-offshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,7333.0,200.0,66.0,18.0,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,north sakhalin,exxonmobil,oil,undeveloped,neogene,sandstone,offshore,offshore,0,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,6122.0,346.0,102.0,23.0,100.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,north sakhalin,exxonmobil,gas-condensate,undeveloped,neogene,sandstone,offshore,offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,6794.0,290.0,148.0,23.0,100.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,unknown,gulf of mexico northern onshore,bp,oil,nearly depleted,jurassic,limestone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,10040.0,75.0,27.0,12.0,200.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+china,far east,bohai,sinopec,oil,plateau production,neogene,sandstone,onshore-offshore,onshore-offshore,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,3940.0,945.0,236.0,33.8,2529.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mauritania,africa,mauritanian salt,woodside energy,oil,developing,neogene,sandstone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3900.0,820.0,125.0,27.0,2000.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,big horn,bp,oil,declining production,permian,dolomite,onshore,onshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4700.0,65.0,21.0,8.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,westcoast petroleum,oil,declining production,cretaceous,sandstone,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,5840.0,32.0,30.0,10.5,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,michigan,cronus development,oil,nearly depleted,devonian,dolomite,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3180.0,100.0,26.0,10.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,songliao,petrochina,oil,declining production,cretaceous,thinly-bedded sandstone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2734.0,600.0,100.0,26.0,1500.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,defiance uplift,kerr-mcgee /humble,oil,nearly depleted,paleogene,volcanics,unknown,unknown,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2800.0,95.0,80.0,10.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+turkmenistan,unknown,caspian south,dragon oil,oil,developing,neogene,sandstone,onshore-offshore,onshore-offshore,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,7550.0,10500.0,80.0,17.0,22.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+qatar,middle east,the gulf,qatar petroleum,oil,second plateau prodution,jurassic,limestone,onshore-offshore,onshore-offshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5297.0,84.0,15.0,18.0,30.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+qatar,middle east,the gulf,qatar petroleum,oil,second plateau prodution,jurassic,limestone,onshore-offshore,onshore-offshore,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,5439.0,231.0,120.0,20.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,permian,numerous,oil,declining production,permian,dolomite,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3300.0,300.0,80.0,13.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+malaysia,far east,sabah,petronas,oil,declining production,neogene,sandstone,offshore,offshore,1,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,6048.0,550.0,140.0,20.0,140.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uk,europe,north sea central,total,gas-condensate,plateau production,jurassic,sandstone,offshore,offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,16360.0,980.0,490.0,16.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,songliao,petrochina,oil,declining production,cretaceous,sandstone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1030.0,260.0,33.0,24.0,182.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+brazil,latin america,campos,petrobras,oil,mature production,cretaceous,limestone,offshore,onshore-offshore,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,9967.0,427.0,160.0,19.0,175.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,hudsons bay oil and gas,oil,nearly depleted,cretaceous,sandstone,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5500.0,300.0,3.06,13.3,43.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,gulf of mexico northern offshore,chevron,oil,plateau production,neogene,sandstone,offshore,offshore,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,8620.0,400.0,250.0,32.0,800.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
+canada,north america,western canada,imperial oil resources,oil,nearly depleted,devonian,limestone,onshore,onshore,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,5350.0,646.0,480.0,10.0,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,chevron,gas,undeveloped,triassic,sandstone,unknown,unknown,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,10300.0,2300.0,260.0,16.0,700.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+kuwait,middle east,the gulf,kuwait oil co,oil,rejuvenating,cretaceous,low-resistivity sandstone,onshore-offshore,onshore-offshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3550.0,1350.0,900.0,24.0,1000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,sinopec,oil,mature production,paleogene,siltstone,onshore-offshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8077.0,300.0,41.0,24.0,681.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,sinopec,oil,declining production,neogene,sandstone,onshore-offshore,onshore-offshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,3686.0,790.0,88.0,33.0,1500.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+norway,europe,north sea northern,statoilhydro,oil,declining production,jurassic,sandstone,offshore,offshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,5040.0,980.0,525.0,30.0,1000.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+norway,europe,north sea northern,statoilhydro,oil,declining production,triassic-jurassic,sandstone,offshore,offshore,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5520.0,630.0,394.0,26.0,1000.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+indonesia,far east,kutai,total,oil,declining production,neogene,sandstone,offshore,onshore-offshore,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,680.0,12500.0,1300.0,18.0,200.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,numerous,gas-condensate,continuing development,cretaceous,sandstone,onshore,onshore,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,4900.0,80.0,35.0,11.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,los angeles,numerous,oil,nearly depleted,neogene,thinly-bedded sandstone,onshore-offshore,onshore-offshore,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1726.0,660.0,152.0,34.0,2300.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,gulf of suez,gupco,oil,mature production,cambrian-ordovician/carboniferous,sandstone,offshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9350.0,1500.0,679.0,20.0,50.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+kazakhstan,former soviet union,ustyurt north,nations energy /karazhanbasmunai,oil,rejuvenating,cretaceous,sandstone,unknown,unknown,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,758.0,135.0,59.0,28.0,240.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+indonesia,far east,salawati,petrochina international,oil,nearly depleted,neogene,limestone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3044.0,561.0,123.0,21.0,38.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,chevron,oil,nearly depleted,devonian,limestone,onshore,onshore,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,9530.0,257.0,56.0,7.4,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+indonesia,far east,natuna west,star energy,oil,mature production,paleogene,sandstone,unknown,unknown,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2350.0,1500.0,31.0,21.0,85.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,star energy,oil,mature production,paleogene-neogene,sandstone,unknown,unknown,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2600.0,5800.0,188.0,23.0,180.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,khalda petroleum,oil,declining production,cretaceous,low-resistivity sandstone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,5850.0,100.0,35.0,20.5,70.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+malaysia,far east,sabah,shell,oil,declining production,neogene,sandstone,offshore,offshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,5070.0,5350.0,1466.0,22.0,280.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,volga-ural,nizhnevolzhskneft,oil,nearly depleted,carboniferous,sandstone,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5800.0,66.0,33.0,20.0,460.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,volga-ural,nizhnevolzhskneft,gas,nearly depleted,carboniferous,limestone,onshore,onshore,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,4400.0,390.0,110.0,5.4,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+indonesia,far east,sumatra central,caltex pacific,oil,declining production,neogene,sandstone,onshore,onshore-offshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,4150.0,350.0,200.0,17.0,393.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,volga-ural,kuybyshevneft,oil,nearly depleted,carboniferous,limestone,onshore,onshore,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,5381.0,330.0,75.0,18.0,195.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+venezuela,latin america,maracaibo,pdvsa,oil,declining production,neogene,sandstone,onshore,onshore,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7000.0,60.0,33.0,25.0,400.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,paradox,pure oil company /chevron,oil,nearly depleted,carboniferous,dolomite,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7290.0,430.0,225.0,5.5,22.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,masters energy,oil,declining production,cretaceous,sandstone,onshore,onshore,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,3740.0,66.0,20.0,22.0,800.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,petrochina,oil,nearly depleted,proterozoic,dolomite,onshore-offshore,onshore-offshore,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10531.0,781.0,381.0,3.2,5.45,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,unknown,pearl river mouth,bp /cnooc,oil,declining production,neogene,limestone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2825.0,1562.0,131.0,25.0,651.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,gulf of mexico northern offshore,phillips,oil,declining production,neogene,low-resistivity sandstone,offshore,offshore,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,13265.0,1500.0,295.0,29.0,1500.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
+iran,middle east,zagros,nioc,oil,continuing development,cretaceous,chalky limestone,onshore,onshore,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,10211.0,328.0,213.0,13.0,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+iran,middle east,zagros,nioc,oil,continuing development,cretaceous,chalky limestone,onshore,onshore,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10703.0,820.0,928.0,9.0,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,siberian eastern,yakutgasprom,gas,declining production,jurassic,sandstone,onshore,onshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5627.0,900.0,23.0,20.0,95.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+austria,europe,vienna,omv,gas,mature production,triassic,dolomite,unknown,unknown,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,15420.0,2953.0,984.0,3.8,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+qatar,middle east,rub al khali,qatar petroleum,oil,rejuvenating,jurassic,dolomite,onshore-offshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,6661.0,80.0,55.0,25.0,600.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,qatar petroleum,oil,rejuvenating,jurassic,limestone,unknown,unknown,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,6755.0,130.0,120.0,25.0,500.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,permian,chevron,oil,nearly depleted,permian,dolomite,onshore,onshore,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,2950.0,400.0,100.0,9.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,williston,numerous,gas,declining production,cretaceous,siltstone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1305.0,30.0,10.7,20.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,crestar energy,oil,plateau production,jurassic,sandstone,onshore,onshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,6880.0,112.0,63.0,14.5,64.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,siberian western,norilskgazprom,methane hydrate,rejuvenating,cretaceous,sandstone,onshore,onshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2756.0,2460.0,66.0,25.0,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+tunisia,africa,pelagian,bg,gas,developing,cretaceous,chalky limestone,offshore,onshore-offshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,9721.0,223.0,26.0,11.0,0.1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,williston,amerada hess,oil,mature production,triassic,sandstone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3310.0,120.0,17.8,14.0,13.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,michigan,numerous,oil,declining production,silurian,dolomitic limestone,onshore,onshore,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,2600.0,400.0,100.0,8.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,gulf of mexico northern onshore,marathon /dns,oil,unknown,jurassic,limestone,onshore,onshore,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,12229.0,250.0,38.0,11.0,61.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+unknown,unknown,gulf of suez,gupco,oil,declining production,paleozoic-cretaceous,sandstone,offshore,onshore-offshore,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,10388.0,2300.0,450.0,17.0,236.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,shell,bitumen,continuing development,cretaceous,sandstone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1500.0,100.0,82.0,28.0,440.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,permian,yates petroleum and others,gas,mature production,permian,sandstone,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2275.0,325.0,30.0,13.0,0.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,siberian western,surgutneftegas,oil,declining production,cretaceous,sandstone,onshore,onshore,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,6030.0,69.0,27.0,22.0,108.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,timan-pechora,servmorneftegaz,oil,undeveloped,carboniferous-permian,limestone,onshore,onshore-offshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7529.0,660.0,150.0,19.0,120.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+saudi arabia,middle east,the gulf,saudi aramco,oil,temporarily shut-in,jurassic,limestone,onshore-offshore,onshore-offshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,6900.0,100.0,81.0,18.0,202.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+saudi arabia,middle east,the gulf,saudi aramco,oil,temporarily shut-in,jurassic,limestone,onshore-offshore,onshore-offshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7100.0,100.0,83.0,15.0,310.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,sunda,cnooc /repsol ypf,oil,mature production,neogene,limestone,offshore,onshore-offshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,2725.0,600.0,86.0,24.5,10.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+egypt,africa,gulf of suez,suco,oil,declining production,carboniferous-cretaceous,sandstone,offshore,onshore-offshore,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,10500.0,3000.0,1600.0,12.0,45.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+brazil,latin america,campos,petrobras,oil,developing,cretaceous,sandstone,offshore,onshore-offshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,3500.0,500.0,520.0,30.0,1000.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,shell,gas,nearly depleted,devonian,dolomite,onshore,onshore,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,10276.0,178.0,58.0,9.0,360.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ecuador,latin america,oriente,petroecuador (petroproduction),oil,declining production,cretaceous,low-resistivity sandstone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8940.0,320.0,46.0,16.0,400.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,powder river,howell petroleum and others,oil,mature production,cretaceous,sandstone,onshore,onshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1300.0,100.0,71.0,19.0,52.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+netherlands /germany,europe,lower saxony,nam,oil,declining production,cretaceous,sandstone,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2400.0,100.0,70.0,32.0,7000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+turkmenistan,former soviet union,amu darya,turkmengas,gas,rejuvenating,cretaceous,sandstone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,10470.0,148.0,106.0,21.8,222.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,poco petroleum,oil,mature production,devonian,limestone,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8500.0,185.0,34.2,6.8,54.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+usa,north america,san joaquin,numerous,oil,plateau production,neogene,diatomite,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,600.0,1000.0,900.0,55.0,1.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,gulf of mexico northern offshore,apache,oil,mature production,neogene,sandstone,offshore,offshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,9910.0,600.0,107.0,31.0,500.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
+canada,north america,western canada,canadian superior,oil,mature production,cretaceous,sandstone,onshore,onshore,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3050.0,190.0,18.0,17.0,1000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+angola,africa,congo,chevron,oil,plateau production,cretaceous,sandstone,offshore,offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,2865.0,550.0,175.0,25.0,1000.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,western canada,numac energy,oil,mature production,devonian,dolomite,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,5900.0,730.0,130.0,5.0,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,gulf of mexico northern onshore,numerous,gas,declining production,jurassic,chalky limestone,onshore,onshore,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11900.0,350.0,72.0,10.0,0.09,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+usa,north america,permian,apache /humble,oil,nearly depleted,devonian,chert,onshore,onshore,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,8100.0,130.0,70.0,15.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+australia,far east,cooper,santos,oil,declining production,carboniferous-permian,sandstone,unknown,unknown,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,9427.0,115.0,60.0,11.2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+australia,far east,carnarvon,origin energy,gas,nearly depleted,cretaceous,glauconitic sandstone,offshore,onshore-offshore,1,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1614.0,41.0,31.0,28.5,1000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uzbekistan,former soviet union,amu darya,sredazgazprom,gas,declining production,jurassic,dolomite,onshore,onshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5548.0,200.0,20.0,13.0,7.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,kaiparowits,citation oil and gas,oil,nearly depleted,permian-triassic,dolomite,unknown,unknown,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,6350.0,250.0,30.0,11.0,21.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+denmark,europe,north sea central,maersk,oil,plateau production,cretaceous,chalk,offshore,offshore,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7063.0,280.0,250.0,25.0,0.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+norway,europe,north sea central,bp,oil,plateau production,cretaceous,chalk,offshore,offshore,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,7648.0,480.0,410.0,35.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,siberian eastern,verkhnechonskneftegaz,oil,developing,proterozoic-cambrian,dolomite,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5052.0,46.0,33.0,11.0,83.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,forest oil /odessa exploration,gas,nearly depleted,silurian,dolomite,unknown,unknown,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,18425.0,127.0,34.0,5.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+canada,north america,williston,numerous,oil,declining production,carboniferous,limestone,onshore,onshore,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1915.0,330.0,20.0,10.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+neutral zone,middle east,the gulf,chevron /kuwait oil co,oil,declining production,cretaceous,limestone,onshore-offshore,onshore-offshore,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,6580.0,650.0,200.0,21.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+australia,far east,carnarvon,exxonmobil,oil,declining production,cretaceous,low-resistivity sandstone,offshore,onshore-offshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1657.0,164.0,98.0,32.0,7500.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,sinopec,oil,nearly depleted,archean,basement,onshore-offshore,onshore-offshore,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4829.0,656.0,190.0,1.8,7.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,permian,kerr mcgee and others,gas-condensate,declining production,permian,siltstone,onshore,onshore,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11245.0,84.0,26.0,10.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unknown,unknown,unknown,petrochina,gas,nearly depleted,proterozoic,dolomite,unknown,unknown,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9485.0,2133.0,92.0,1.76,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,sichuan,petrochina,gas,declining production,carboniferous,dolomite,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,12240.0,98.0,33.0,6.0,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,petrochina,oil,mature production,paleogene,sandstone,onshore-offshore,onshore-offshore,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,5600.0,900.0,45.0,18.0,1800.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,siberian western,gazprom (yamburggazdobycha),gas,plateau production,cretaceous,sandstone,onshore,onshore,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,3280.0,2460.0,144.0,27.0,450.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,permian,kinder morgan,oil,declining production,permian,dolomite,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,4150.0,225.0,200.0,17.5,62.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,sinopec,oil,nearly depleted,ordovician,dolomite,onshore-offshore,onshore-offshore,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,5970.0,560.0,82.0,2.5,8.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+usa,north america,san joaquin,castle peak resources,oil,nearly depleted,neogene,thinly-bedded sandstone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,11100.0,200.0,150.0,20.0,75.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,petrochina,oil,mature production,paleogene,sandstone,onshore-offshore,onshore-offshore,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,5384.0,230.0,69.0,26.7,1872.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+china,far east,bohai,petrochina,oil,declining production,paleogene,sandstone,onshore-offshore,onshore-offshore,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,4721.0,164.0,62.0,23.2,121.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+russia,former soviet union,volga-ural,nizhnevolzhsknet,oil,nearly depleted,carboniferous,sandstone,onshore,onshore,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,3225.0,128.0,44.0,26.0,1000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+,,,,,,,,,,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,1,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,1,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,1,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,
