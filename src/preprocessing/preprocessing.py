@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import FunctionTransformer, MultiLabelBinarizer, OneHotEncoder
+from sklearn.preprocessing import MultiLabelBinarizer, OneHotEncoder
 
 from src.features.geo import water_fraction, within_shape
 
@@ -11,14 +11,6 @@ def cat_diff(a, b, col):
 
 def split_strings(X, col, sep='/'):
     return X[col].fillna('').astype(str).str.split(sep)
-
-
-def col_splitter(col, sep='/'):
-    return FunctionTransformer(split_strings, kw_args={'col': col, 'sep': sep})
-
-
-def binarizer():
-    return FunctionTransformer(MultiLabelBinarizer().fit_transform)
 
 
 def str_col_vals_to_lower(df):
@@ -164,28 +156,19 @@ def rename_encoded_columns(tranformed_data, encoded_columns, col, index):
     return pd.DataFrame(tranformed_data, columns=renamed_columns, index=index)
 
 
-def split_binarize_transform_columns(transformer):
-    return [c.replace(' ', '-').replace('/', '-') for c in
-            transformer.named_steps['binarize'].func.__self__.classes_.tolist()]
-
-
 def split_binarize_encode(df, col):
-    pipeline = Pipeline([
-        ('extract', col_splitter(col=col)),
-        ('binarize', binarizer())
-    ])
-
-    binarized = pipeline.fit_transform(df)
-    encoded_columns = split_binarize_transform_columns(pipeline)
-
+    df_with_split_col = split_strings(df, col)
+    transformer = MultiLabelBinarizer()
+    binarized = transformer.fit_transform(df_with_split_col)
+    encoded_columns = transformer.classes_
     features = rename_encoded_columns(binarized, encoded_columns, col, df.index)
-    return features, pipeline
+    return features, transformer
 
 
 def split_binarize_encode_test_data(transformer, df, col):
-    transformed = transformer.transform(df[[col]])
-    encoded_columns = split_binarize_transform_columns(transformer)
-    return rename_encoded_columns(transformed, encoded_columns, col, df.index)
+    df_with_split_col = split_strings(df, col)
+    transformed = transformer.transform(df_with_split_col)
+    return rename_encoded_columns(transformed, transformer.classes_, col, df.index)
 
 
 def onehot_transform_columns(transformer):
