@@ -42,12 +42,6 @@ source .venv/bin/activate
 uv pip install -e .
 ```
 
-# Citation / Цитирование
-
-* Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.
-
-![NEV-Logo-color.png](doc%2Fimg%2FNEV-Logo-color.png)
-
 ## Конфигурация Kaggle Submitter Module
 
 Kaggle Submitter Module - это модуль для автоматической отправки сабмишнов в Kaggle и взаимодействия с метаданными
@@ -72,3 +66,10 @@ submitter = KaggleSubmitter(competition="classification-of-oil-and-gas")
 best_submission_kaggle_info = submitter.get_submission_by_hash("some_hash")
 print(best_submission_kaggle_info)
 ```
+
+
+## Citation / Цитирование
+
+* Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.
+
+![NEV-Logo-color.png](doc%2Fimg%2FNEV-Logo-color.png)
